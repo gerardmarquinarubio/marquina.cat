@@ -1,0 +1,32 @@
+{
+  "name": "@marquina.cat/usefetch",
+  "description": "Fetches a resource and returns a react state",
+  "author": "Gerard Marquina Rubio",
+  "license": "MIT",
+  "type": "commonjs",
+  "main": "index.js",
+  "exports": {
+    "import": "./index.mjs",
+    "default": "./index.js"
+  },
+  "scripts": {
+    "test": "jest",
+    "build:dts": "tsc",
+    "build:cjs": "esbuild index.ts --bundle --minify --platform=node --format=cjs --external:react --outfile=index.js ",
+    "build:mjs": "esbuild index.ts --bundle --minify --platform=node --format=esm --external:react --outfile=index.mjs ",
+    "build": "npm run build:dts & npm run build:cjs & npm run build:mjs"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^14.0.0",
+    "esbuild": "^0.18.17",
+    "jest": "^29.6.2",
+    "jest-environment-jsdom": "^29.6.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.1.6"
+  },
+  "version": "1.0.3"
+}

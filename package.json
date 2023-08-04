@@ -1,0 +1,16 @@
+{
+  "name": "marquina.cat",
+  "description": "The marquina library repo",
+  "author": "Gerard Marquina Rubio",
+  "license": "MIT",
+  "workspaces": [
+    "./packages/*"
+  ],
+  "scripts": {
+    "test": "npm test -w packages",
+    "version": "npm version -w packages",
+    "build": "npm run build -w packages",
+    "publish": "npm publish -w packages",
+    "prepublishOnly": "echo 'Error: please use npm run publish' && exit 1"
+  }
+}

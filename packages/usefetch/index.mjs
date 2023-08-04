@@ -1,0 +1,1 @@
+import{useState as s,useEffect as l}from"react";function f(r,u=[]){let[c,t]=s(void 0);return l(()=>{let n=!1;return r().then(e=>{n||t(e)}).catch(e=>{console.error(e),t(null)}),()=>{n=!0}},u),c}export{f as default};
