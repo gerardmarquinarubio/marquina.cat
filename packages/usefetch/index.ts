@@ -16,7 +16,7 @@ export default function useFetch<T>(cb: () => Promise<T>, dependencies: Dependen
             });
         return () => {
             cancelled = true;
-        }
+        };
     }, dependencies);
     return state;
 }
