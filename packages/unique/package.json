@@ -1,6 +1,6 @@
 {
-  "name": "@marquina.cat/sleep",
-  "description": "Sleeps for a given amount of ms",
+  "name": "@marquina.cat/unique",
+  "description": "Removes duplicates from an array given a predicate",
   "author": "Gerard Marquina Rubio",
   "license": "MIT",
   "type": "commonjs",

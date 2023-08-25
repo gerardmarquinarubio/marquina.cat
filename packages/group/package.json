@@ -1,6 +1,6 @@
 {
   "name": "@marquina.cat/group",
-  "description": "Groups items using a predicate function",
+  "description": "Groups items into a new array using a predicate function",
   "author": "Gerard Marquina Rubio",
   "license": "MIT",
   "type": "commonjs",
@@ -25,5 +25,5 @@
     "jest": "^29.6.2",
     "typescript": "^5.1.6"
   },
-  "version": "1.0.3"
+  "version": "1.0.4"
 }

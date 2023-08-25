@@ -1,6 +1,6 @@
 {
   "name": "@marquina.cat/usefetch",
-  "description": "Fetches a resource and returns a react state",
+  "description": "Fetches a resource and returns a react state, state is undefined if the fetch is uncomplete and null if the fetch failed.",
   "author": "Gerard Marquina Rubio",
   "license": "MIT",
   "type": "commonjs",
@@ -32,5 +32,5 @@
     "react-dom": "^18.2.0",
     "typescript": "^5.1.6"
   },
-  "version": "1.0.3"
+  "version": "1.0.4"
 }

@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "noEmit": false,
+  },
+  "include": ["index.ts"],
+  "exclude": ["node_modules"]
+}

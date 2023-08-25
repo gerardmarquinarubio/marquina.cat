@@ -1,5 +1,5 @@
-export default function group<T>(items: T[], predicate: (element: T) => number) {
-    const result: T[][] = [];
+export default function group<T, K extends string | number | symbol >(items: T[], predicate: (element: T) => K, initial = {} as Record<K, T[]>) {
+    const result = initial;
     for (const item of items) {
         const index = predicate(item);
         if (!result[index]) {

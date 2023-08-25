@@ -13,5 +13,9 @@
     "build": "npm run build -w packages",
     "publish": "npm publish -w packages",
     "prepublishOnly": "echo 'Error: please use npm run publish' && exit 1"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=9.8.0"
   }
 }
